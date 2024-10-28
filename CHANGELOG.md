@@ -1,7 +1,25 @@
 # Changelog
 
-## [4.0.1](https://github.com/openeuropa/oe_theme/tree/4.0.1) (2024-09-17)
+## [4.1.0](https://github.com/openeuropa/oe_theme/tree/4.1.0) (2024-10-28)
+[Full Changelog](https://github.com/openeuropa/oe_theme/compare/4.0.1...4.1.0)
 
+**Merged pull requests:**
+
+- EWPP-4881: Update to ECL 4.7.2. [\#1523](https://github.com/openeuropa/oe_theme/pull/1523) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-4849: Add picture\_zoom option to list\_item, featured\_item and gallery patterns. [\#1518](https://github.com/openeuropa/oe_theme/pull/1518) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-4791: Fix MediaDataExtractor Thumbnail to return a relative URL of a local file. [\#1514](https://github.com/openeuropa/oe_theme/pull/1514) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-4730: Add separator component for oe\_theme. [\#1512](https://github.com/openeuropa/oe_theme/pull/1512) ([sergepavle](https://github.com/sergepavle))
+- EWPP-4796: Fix unit test regarding gallery item value object and TwigExtensionTest::testSmartTrimFilter. Fix phpunit extention class \Drupal\Tests\oe\_theme\EnsurePHPUnitBatchingTestExtension. [\#1511](https://github.com/openeuropa/oe_theme/pull/1511) ([sergepavle](https://github.com/sergepavle))
+- EWPP-4793: Update to ECL 4.7.0. [\#1510](https://github.com/openeuropa/oe_theme/pull/1510) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-4785: Add grid\_template field to gallery pattern. [\#1509](https://github.com/openeuropa/oe_theme/pull/1509) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-4782: Add translations for non-eu languages. [\#1508](https://github.com/openeuropa/oe_theme/pull/1508) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-4701: Contextual links on highighted lists. [\#1507](https://github.com/openeuropa/oe_theme/pull/1507) ([upchuk](https://github.com/upchuk))
+- Merge release-4.0.1 to 4.x. [\#1506](https://github.com/openeuropa/oe_theme/pull/1506) ([nagyad](https://github.com/nagyad))
+- EWPP-4758: Use display block instead of inline-block for media container custom ratio class. [\#1505](https://github.com/openeuropa/oe_theme/pull/1505) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-4750: Add extra\_attributes to patterns used to render node templates. [\#1502](https://github.com/openeuropa/oe_theme/pull/1502) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-4705: Add font\_size field to Facts and figures pattern. [\#1499](https://github.com/openeuropa/oe_theme/pull/1499) ([22Alexandra](https://github.com/22Alexandra))
+
+## [4.0.1](https://github.com/openeuropa/oe_theme/tree/4.0.1) (2024-09-17)
 [Full Changelog](https://github.com/openeuropa/oe_theme/compare/4.0.0...4.0.1)
 
 **Merged pull requests:**
