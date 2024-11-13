@@ -583,7 +583,7 @@ msgid "Report"
 msgstr "Rapport"
 
 msgid "Register here"
-msgstr "S'incrire ici"
+msgstr "S'inscrire ici"
 
 msgid "This event has started. The livestream will start at @date."
 msgstr "Cet événement a commencé. La retransmission en direct débutera à @date."
