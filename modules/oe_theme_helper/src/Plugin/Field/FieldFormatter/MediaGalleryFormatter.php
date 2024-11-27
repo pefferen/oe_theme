@@ -14,6 +14,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\media\MediaInterface;
 use Drupal\oe_theme\ValueObject\GalleryItemValueObject;
+use Drupal\oe_theme\ValueObject\ImageValueObjectInterface;
 use Drupal\oe_theme_helper\MediaDataExtractorPluginManagerInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -224,6 +225,10 @@ class MediaGalleryFormatter extends MediaThumbnailUrlFormatter {
         'thumbnail_image_style' => $this->getSetting('image_style'),
       ]);
       $thumbnail = $extractor->getThumbnail($media);
+      // If the item does not have a thumbnail, skip it.
+      if (!$thumbnail instanceof ImageValueObjectInterface) {
+        continue;
+      }
 
       $values = [
         'thumbnail' => $thumbnail,
