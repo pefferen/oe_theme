@@ -1,7 +1,13 @@
-# Changelog
+# Change Log
+
+## [4.2.1](https://github.com/openeuropa/oe_theme/tree/4.2.1) (2024-11-27)
+[Full Changelog](https://github.com/openeuropa/oe_theme/compare/4.2.0...4.2.1)
+
+**Merged pull requests:**
+
+- EWPP-4969: Skip gallery items without available thumbnail. [\#1529](https://github.com/openeuropa/oe_theme/pull/1529) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [4.2.0](https://github.com/openeuropa/oe_theme/tree/4.2.0) (2024-10-28)
-
 [Full Changelog](https://github.com/openeuropa/oe_theme/compare/4.1.0...4.2.0)
 
 **Merged pull requests:**
